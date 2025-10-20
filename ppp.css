@@ -41,7 +41,7 @@
       .carousel-item img {
         height: 70vh;
         /* padding: 10px; */
-        object-fit: fill;
+        object-fit: cover;
       }
     }
 
@@ -468,5 +468,6 @@
         transform: rotateY(calc(var(--i) * 45deg)) translateZ(180px);
       }
     }
+
 
 
