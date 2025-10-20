@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Narendra Modi — Biography & Political Career</title>
+  <link rel="stylesheet" href="ppp.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ 
+ <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      background: #f8f9fa;
+    }
+    
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background: #f8f9fa;
+  }
+
+  .hero {
+     background-image: url("ppcermony.jpg");
+    background-size: cover;
+     color: white;
+    padding: 60px 20px;
+    text-align: center;
+    max-height: 400px;
+  }
+@media(max-width: 668px){
+  
+.hero {
+    background-image: url(ppcermony.jpg);
+    background-size: contain;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    max-height: 400px;
+    background-repeat: no-repeat;
+}
+.hero img.profile-pic {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 20px;
+}
+ .hero h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);  /* scales with screen */
+    font-weight: 700;
+    color: brown;
+    font-style: italic;
+  }
+}
+  /* Responsive heading */
+  .hero h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);  /* scales with screen */
+    font-weight: 700;
+    /* color: rgb(244, 201, 11); */
+    font-style: italic;
+     font-family: 'Georgia', serif;
+  color: #f5f5f5;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+  background: linear-gradient(90deg, rgba(0,0,0,0.6), rgba(0,0,0,0));
+ 
+  }
+
+  /* Responsive subtitle */
+  .hero p {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    margin-top: 10px;
+    max-width: 900px;
+    color: rgb(29, 79, 203);
+    background-color: rgb(239, 244, 249);
+    margin-left: auto;
+    font-weight:lighter;
+    margin-right: auto;
+  }
+
+  .hero img.profile-pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 20px;
+  }
+
+  .section-title {
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #343a40;
+  }
+
+
+    .hero img.profile-pic {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid white;
+      margin-bottom: 20px;
+    }
+    .section-title {
+      font-weight: bold;
+      margin-bottom: 30px;
+      text-align: center;
+      color: #343a40;
+    }
+    .timeline {
+      position: relative;
+      margin: 50px 0;
+      padding-left: 20px;
+    }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 30px;
+      top: 0;
+      bottom: 0;
+      width: 4px;
+      background: #0d6efd;
+    }
+    .timeline-item {
+      position: relative;
+      margin-bottom: 40px;
+      padding-left: 60px;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: 22px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: #0d6efd;
+      top: 0;
+    }
+    .timeline-item h5 {
+      margin-top: 0;
+      color: #0d6efd;
+    }
+    .footer {
+      background: #212529;
+      color: #ccc;
+      text-align: center;
+      padding: 20px 0;
+    }
+    .footer a {
+      color: #adb5bd;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+ <header>
+  <div class="container d-flex justify-content-around align-items-center flex-wrap" id="header-container">
+    
+    <!-- Image (hidden by default) -->
+    <img src="pp18b.jpg" alt="Narendra Modi" id="menu-img" class="headimg">
+
+    <!-- Name -->
+    <h1 id="main-title">Pratap Chandra Sarangi</h1>
+    
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg p-0">
+      <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <i class="fa fa-bars fa-lg"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto text-center w-100">
+          <li class="nav-item"><a class="nav-link active" href="Index.html">Home</a></li>
+          <!-- <li class="nav-item"><a class="nav-link " href="#about">About</a></li> -->
+          <li class="nav-item"><a class="nav-link" href="Biograghy.html">Biography</a></li>
+          
+          <li class="nav-item"><a class="nav-link" href="News.html">News & Timeline</a></li>
+          <li class="nav-item"><a class="nav-link" href="Video.html">Videos</a></li>
+          <li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <select id="lang-select" aria-label="Language Switcher">
+      <option value="en">English</option>
+      <option value="hi">Hindi</option>
+    </select>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+  <img class="profile-pic" src="pp18b.jpg" alt="Narendra Modi">
+  <h1 > Shri Pratap Chandra Sarangi
+</h1>
+  <p>Member of Parliament from Balasore (Odisha), Ex Union Minister of State for MSME</p>
+</section>
+
+
+<!-- About & Early Life -->
+<section class="container py-5">
+  <h2 class="section-title">About & Early Life</h2>
+  <div class="row g-4">
+    <div class="col-md-6">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <p><strong>Date of Birth:</strong>  4 January 1955   Nilagiri, Balasore</p>
+
+          <!-- Short intro always visible -->
+          <div id="bio-short">
+            <p>
+              Pratap Chandra Sarangi was born in the village of Gopinathpur, Nilagiri, Balasore into a Brahmin family Father
+Late Gobinda Chandra Sarangi & Mother 
+Late Siddheswari Sarangi. He completed his bachelor's degree at Fakir Mohan College, Balasore under Utkal University in 1975.
+
+Since his childhood, Sarangi was a spiritual seeker. He wanted to become a monk of the Ramakrishna Math.
+
+He made several visits to Belur Math, the headquarters of the Ramakrishna Order in Howrah, West Bengal.
+ The monks of the Math discussed with Sarangi about his desire and examined his biodata. They discovered that Sarangi's widowed mother was alive. They insisted that he should go back and serve her. After his return to his village, he became involved in various social activities and politics.
+            </p>
+          </div>
+
+          <!-- Hidden expandable part -->
+          <div class="collapse" id="bio-more">
+            <p>Initially, Sarangi served as a district level volunteer of the Rashtriya Swayamsevak Sangh and also worked for the Vishwa Hindu Parishad and Bajrang Dal. He opened schools for the poor called Samar Kara Kendra, under the Gana Shikhsa Mandir Yojana in tribal villages in Balasore and Mayurbhanj District.
+
+His main part of his life is as a Head Clerk in Nilgiri College, Nilgiri, Balasore, Odisha. He also contested in the 2014 Indian general election from Balasore, Lok Sabha constituency as a BJP candidate, which he lost.[8] He contested again in the 2019 Indian general election from Balasore, Lok Sabha constituency as a BJP candidate, in which he defeated the Biju Janata Dal candidate and sitting MP, Rabindra Kumar Jena, by a margin of 12,956 votes.
+In May 2019, Sarangi became Minister of State for Micro, Small and Medium Enterprises and Animal Husbandry, Dairying and Fisheries.</p>
+
+            <p> He serves as a National Executive Member of the Bharatiya Janata Party (BJP) and a member of parliament from the Balasore Lok Sabha constituency in Odisha. He was the Minister of State in the Government of India for Animal Husbandry, 
+              Dairying and Fisheries and Micro, Small and Medium Enterprises (2019-2021) and a two-time member of the Odisha Legislative Assembly from Nilgiri (2004-2014). Sarangi was Odisha's state unit chief of the Bajrang Dal when Graham Staines, an Australian Christian Missionary, and his two minor children were burnt alive by the members of the right-wing outfit in 1999. Later he was involved in 2001 Odisha Assembly attack.</p>
+
+             </div>
+
+          <!-- Toggle Button -->
+          <button class="btn btn-primary btn-sm mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#bio-more" aria-expanded="false" aria-controls="bio-more" id="readMoreBtn">
+            Read More
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 text-center">
+      <img src="pphoto.webp" class="img-fluid rounded shadow" alt="Narendra Modi younger">
+    </div>
+  </div>
+</section>
+
+<!-- Political Career Timeline -->
+<section class="container py-5">
+  <h2 class="section-title">Political Journey & Career Timeline</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <h5>2004 – 2014</h5>
+      <p>Served two consecutive terms as Member of the Odisha Legislative Assembly.</p>
+    </div>
+    <div class="timeline-item">
+      <h5>2009 – 2014</h5>
+      <p>Held multiple committee roles including House Committee on Linguistic Minorities, Cooperatives, Cyclone/Flood, Members’ Amenities, Petitions, Public Accounts, and Standing Committee on Education, Youth, Science & IT.</p>
+    </div>
+    <div class="timeline-item">
+      <h5>May 2019</h5>
+      <p>Elected to the 17th Lok Sabha, marking entry into national politics.</p>
+    </div>
+    <div class="timeline-item">
+      <h5>30 May 2019 – 7 July 2021</h5>
+      <p>Served as Union Minister of State for Micro, Small and Medium Enterprises; and Fisheries, Animal Husbandry and Dairying.</p>
+    </div>
+    <div class="timeline-item">
+      <h5>01 Jan 2022 – 2024</h5>
+      <p>Member of the Public Accounts Committee and Hindi Rajbhasha Committee.</p>
+    </div>
+    <div class="timeline-item">
+      <h5>13 Sept 2022 onwards</h5>
+      <p>Member of the Standing Committee on Water Resources.</p>
+    </div>
+    <div class="timeline-item">
+      <h5>June 2024</h5>
+      <p>Elected to the 18th Lok Sabha.</p>
+    </div>
+    <div class="timeline-item">
+      <h5>14 Aug 2024 onwards</h5>
+      <p>Member of the Committee on Public Undertakings.</p>
+    </div>
+    <div class="timeline-item">
+      <h5>26 Sept 2024 onwards</h5>
+      <p>Member of the Committee on Water Resources.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Achievements & Vision -->
+<section class="container py-5">
+  <h2 class="section-title">Achievements & Vision for the Nation</h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+    <div class="card h-100 shadow-sm">
+        <img src="pp2.jpg" class="card-img-top" alt="Swachh Bharat Abhiyan">
+        <div class="card-body">
+          <h5 class="card-title">Community Engagement:</h5>
+          <p class="card-text">Sarangi is recognized for his close ties with his constituents, often engaging with them to understand their needs and concerns. He is known for his grassroots approach, which has earned him respect and loyalty among the electorate.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="pp5.jpg" class="card-img-top" alt="Swachh Bharat Abhiyan">
+        <div class="card-body">
+          <h5 class="card-title">Rural Development:</h5>
+          <p class="card-text"> He has been actively involved in various rural development projects aimed at improving the livelihoods of people in his constituency. His initiatives often focus on agriculture, skill development, and self-employment</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="pp12.jpg" class="card-img-top" alt="International Yoga Day">
+        <div class="card-body">
+          <h5 class="card-title">Recognition:</h5>
+          <p class="card-text"> His efforts in public service and governance have earned him accolades both locally and nationally, reflecting his influence and commitment to improving the lives of the people in his constituency.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-4 text-center">
+    <h5>Vision</h5>
+    <p>Pratap Chandra Sarangi envisions an India where development is deeply rooted in compassion, simplicity, and inclusivity. His political journey reflects a commitment to empowering the underserved, fostering self-reliance, and preserving cultural and environmental integrity..</p>
+  </div>
+</section>
+
+<!-- Contact / Connect -->
+
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 Pratap Chandra Sarangi. All rights reserved.</p>
+  <p>
+    <a href="https://x.com/pcsarangi" aria-label="Twitter">Twitter</a> | 
+    <a href="https://www.facebook.com/pcsodisha/" aria-label="Facebook">Facebook</a> | 
+    <a href="https://www.instagram.com/pratap.sarangi/" aria-label="Instagram">Instagram</a>
+  </p>
+</footer>
+
+
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

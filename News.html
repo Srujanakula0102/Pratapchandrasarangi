@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Narendra Modi – News & Timeline</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="ppp.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+ 
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f0f4ff, #e6ecf5);
+      color: #333;
+    }
+
+    /* Section Titles */
+    h2 {
+      font-weight: 700;
+      color: #0d47a1;
+      border-left: 5px solid #ff9800;
+      padding-left: 10px;
+      margin-bottom: 20px;
+    }
+
+    /* News Cards */
+    .news-card {
+      background: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+      margin-bottom: 25px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .news-card:hover {
+      transform: translateY(-5px);
+    }
+    .news-card h5 {
+      font-weight: bold;
+      color: #0d47a1;
+    }
+    .read-more-btn {
+      color: #ff5722;
+      cursor: pointer;
+      font-weight: 600;
+      transition: color 0.2s;
+    }
+    .read-more-btn:hover {
+      color: #e64a19;
+    }
+
+    /* Timeline Styling */
+    .timeline {
+      position: relative;
+      margin: 40px 0;
+      padding-left: 30px;
+      border-left: 4px solid #0d47a1;
+    }
+    .timeline-event {
+      margin-bottom: 30px;
+      position: relative;
+      padding-left: 15px;
+    }
+    .timeline-event::before {
+      content: '';
+      position: absolute;
+      left: -12px;
+      top: 5px;
+      width: 20px;
+      height: 20px;
+      background: #ff9800;
+      border: 3px solid #0d47a1;
+      border-radius: 50%;
+    }
+    .timeline-event h6 {
+      font-weight: bold;
+      color: #0d47a1;
+      margin-bottom: 5px;
+    }
+    .timeline-event p {
+      margin: 0;
+      color: #444;
+    }
+
+    /* Header */
+    .page-header {
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(135deg, #0d47a1, #1976d2);
+      color: white;
+      border-radius: 0 0 40px 40px;
+      margin-bottom: 40px;
+    }
+    .page-header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+    .page-header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="container d-flex justify-content-around align-items-center flex-wrap" id="header-container">
+    
+    <!-- Image (hidden by default) -->
+    <img src="pp18b.jpg" alt="Narendra Modi" id="menu-img" class="headimg">
+
+    <!-- Name -->
+    <h1 id="main-title">Pratap Chandra Sarangi</h1>
+    
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg p-0">
+      <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <i class="fa fa-bars fa-lg"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto text-center w-100">
+          <li class="nav-item"><a class="nav-link active" href="Index.html">Home</a></li>
+          <!-- <li class="nav-item"><a class="nav-link " href="#about">About</a></li> -->
+          <li class="nav-item"><a class="nav-link" href="Biograghy.html">Biography</a></li>
+          
+          <li class="nav-item"><a class="nav-link" href="News.html">News & Timeline</a></li>
+          <li class="nav-item"><a class="nav-link" href="Video.html">Videos</a></li>
+          <li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <select id="lang-select" aria-label="Language Switcher">
+      <option value="en">English</option>
+      <option value="hi">Hindi</option>
+    </select>
+  </div>
+</header>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <h1>Pratap Chandra Sarangi</h1>
+    <p>Latest News & Political Timeline</p>
+  </div>
+
+  <div class="container">
+
+    <!-- News Section -->
+    <h2>📰 Latest News</h2>
+    <div class="news-card p-4">
+      <h5>PM Modi Calls Pratap Chandra Sarangi, Inquires About His Health</h5>
+      <p class="news-text">
+        Prime Minister Narendra Modi on Thursday called up BJP MPs Pratap Sarangi and Mukesh Rajput and inquired about their health after the injuries in Parliament today. The two BJP MPs were admitted to Delhi’s Ram Manohar Lohia Hospital over the alleged scuffle in the Parliament. Medical Superintendent Ajay Shukla said that both of the leaders suffered head injuries and have been admitted to the Intensive Care Unit (ICU).
+        <span class="more-text d-none"> 
+        </span>
+      </p>
+      <span class="read-more-btn" onclick="toggleReadMore(this)">Read More</span>
+    </div>
+
+    <div class="news-card p-4">
+      <h5>‘Those who don’t accept Vande Mataram have no right to be in India’: Minister on CAA</h5>
+      <p class="news-text">
+       Union Minister of State for MSME Pratap Chandra Sarangi on Saturday said the Citizenship Amendment Act (CAA) was a way to “atone for the sin of Partition” committed by the Congress. 
+        <span class="more-text d-none"> 
+          He highlighted India’s leadership in the International Solar Alliance and 
+          called for stronger investments in clean energy across the world. His address reinforced India’s 
+          image as a responsible global power.
+        </span>
+      </p>
+      <span class="read-more-btn" onclick="toggleReadMore(this)">Read More</span>
+    </div>
+
+    <!-- Timeline Section -->
+    <!-- <h2>📜 Political Timeline</h2>
+    <div class="timeline">
+      <div class="timeline-event">
+        <h6>1950</h6>
+        <p>Born on 17th September in Vadnagar, Gujarat, India.</p>
+      </div>
+      <div class="timeline-event">
+        <h6>2001</h6>
+        <p>Became Chief Minister of Gujarat.</p>
+      </div>
+      <div class="timeline-event">
+        <h6>2014</h6>
+        <p>Sworn in as the 14th Prime Minister of India.</p>
+      </div>
+      <div class="timeline-event">
+        <h6>2019</h6>
+        <p>Re-elected as Prime Minister of India for a second term.</p>
+      </div>
+      <div class="timeline-event">
+        <h6>2023</h6>
+        <p>Hosted G20 Summit in India, strengthening international ties.</p>
+      </div>
+    </div> -->
+  </div>
+<footer>
+  <p>© 2025 Pratap Chandra Sarangi. All rights reserved.</p>
+  <p>
+    <a href="https://x.com/pcsarangi" aria-label="Twitter">Twitter</a> | 
+    <a href="https://www.facebook.com/pcsodisha/" aria-label="Facebook">Facebook</a> | 
+    <a href="https://www.instagram.com/pratap.sarangi/" aria-label="Instagram">Instagram</a>
+  </p>
+</footer>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function toggleReadMore(btn) {
+      const moreText = btn.previousElementSibling.querySelector(".more-text");
+      if (moreText.classList.contains("d-none")) {
+        moreText.classList.remove("d-none");
+        btn.textContent = "Read Less";
+      } else {
+        moreText.classList.add("d-none");
+        btn.textContent = "Read More";
+      }
+    }
+  </script>
+<script src="script.js"></script>
+
+</body>
+</html>
